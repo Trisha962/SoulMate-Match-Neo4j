@@ -3,10 +3,9 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<parent>
-		<groupId>org.springframework.boot</groupId>
-		<artifactId>spring-boot-starter-parent</artifactId>
-		<version>2.7.13-SNAPSHOT</version>
-		<relativePath/> <!-- lookup parent from repository -->
+		<groupId>org.example</groupId>
+		<artifactId>Soul</artifactId>
+		<version>1.0-SNAPSHOT</version>
 	</parent>
 	<groupId>com.example</groupId>
 	<artifactId>Soul-Neo</artifactId>
@@ -20,16 +19,71 @@
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-data-neo4j</artifactId>
+            <version>3.0.4</version>
+        </dependency>
+		<dependency>
+			<groupId>org.projectlombok</groupId>
+			<artifactId>lombok</artifactId>
+			<version>1.18.26</version>
+			<optional>true</optional>
 		</dependency>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-web</artifactId>
+            <version>3.1.0</version>
+        </dependency>
+		<dependency>
+			<groupId>com.googlecode.json-simple</groupId>
+			<artifactId>json-simple</artifactId>
+			<version>1.1.1</version>
 		</dependency>
+		<!-- Neo4j Spring Data -->
+
+
+<!--		&lt;!&ndash; Neo4j Driver &ndash;&gt;-->
+<!--		<dependency>-->
+<!--			<groupId>org.neo4j.driver</groupId>-->
+<!--			<artifactId>neo4j-java-driver</artifactId>-->
+<!--			<version>5.6.0</version>-->
+<!--		</dependency>-->
+
+<!--		&lt;!&ndash; Neo4j RelationshipEntity &ndash;&gt;-->
+<!--		<dependency>-->
+<!--			<groupId>org.springframework.data</groupId>-->
+<!--			<artifactId>spring-data-neo4j</artifactId>-->
+<!--            <version>7.0.3</version>-->
+
+<!--        </dependency>-->
 
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-amqp</artifactId>
+			<version>3.0.4</version>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-test</artifactId>
-			<scope>test</scope>
+            <version>3.1.0</version>
+            <scope>test</scope>
+		</dependency>
+		<!-- Lombok -->
+		<dependency>
+			<groupId>org.projectlombok</groupId>
+			<artifactId>lombok</artifactId>
+			<version>1.18.20</version>
+			<scope>provided</scope>
+		</dependency>
+		<dependency>
+			<groupId>org.neo4j</groupId>
+			<artifactId>neo4j-ogm-core</artifactId>
+			<version>3.2.28</version>
+		</dependency>
+
+		<!-- Neo4j OGM Bolt Driver -->
+		<dependency>
+			<groupId>org.neo4j</groupId>
+			<artifactId>neo4j-ogm-bolt-driver</artifactId>
+			<version>3.2.28</version>
 		</dependency>
 	</dependencies>
 

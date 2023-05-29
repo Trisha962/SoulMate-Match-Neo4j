@@ -1,6 +1,7 @@
 package com.example.ProductByUser.proxy;
 
-import com.example.ProductByUser.model.UserDto;
+import com.example.ProductByUser.model.UserDTO;
+
 import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Service;
@@ -11,5 +12,7 @@ import org.springframework.web.bind.annotation.RequestBody;
 public interface UserProxy {
 
     @PostMapping("/api/soulmate/v1/register")
-    public ResponseEntity<?> registerUser(@RequestBody UserDto userDto);
+    public ResponseEntity<?> registerUser(@RequestBody UserDTO userDto);
+
+
 }

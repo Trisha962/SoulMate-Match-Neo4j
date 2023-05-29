@@ -1,4 +1,4 @@
-package com.productAuth.ProductByUser.model;
+package com.example.ProductByUser.model;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
@@ -10,7 +10,7 @@ import org.springframework.data.mongodb.core.mapping.Document;
 @NoArgsConstructor
 @Data
 @Document
-public class UserDto {
+public class UserDTO {
     @Id
     private String email;
     private String name;

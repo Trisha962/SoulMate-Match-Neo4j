@@ -1,4 +1,4 @@
-package com.productAuth.ProductByUser.model;
+package com.example.ProductByUser.model;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

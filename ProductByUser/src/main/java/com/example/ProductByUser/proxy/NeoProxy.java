@@ -1,6 +1,6 @@
-package com.example.SoulNeo.proxy;
+package com.example.ProductByUser.proxy;
 
-import com.example.SoulNeo.domain.UserDTO;
+import com.example.ProductByUser.model.UserDTO;
 
 import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.http.ResponseEntity;

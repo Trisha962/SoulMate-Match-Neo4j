@@ -1,4 +1,4 @@
-package com.productAuth.ProductByUser.filter;
+package com.example.ProductByUser.filter;
 
 import io.jsonwebtoken.Claims;
 import io.jsonwebtoken.Jwts;

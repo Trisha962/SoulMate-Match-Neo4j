@@ -5,6 +5,14 @@
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/UserService/pom.xml" />
+        <option value="$PROJECT_DIR$/soulmatch/pom.xml" />
+        <option value="$PROJECT_DIR$/ApiGateway/pom.xml" />
+        <option value="$PROJECT_DIR$/EurekaServer/pom.xml" />
+        <option value="$PROJECT_DIR$/NotificationService/pom.xml" />
+        <option value="$PROJECT_DIR$/ProductByUser/pom.xml" />
+        <option value="$PROJECT_DIR$/Soul-Neo/pom.xml" />
+        <option value="$PROJECT_DIR$/SoulMatchingServer/pom.xml" />
       </list>
     </option>
   </component>
